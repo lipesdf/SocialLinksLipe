@@ -1,9 +1,7 @@
-/*** Global ***/
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background: #FFFFFF url(https://i.imgur.com/5lEQxKK.png) no-repeat right top fixed;
 }
 
 a{
@@ -18,8 +16,7 @@ html{
 }
 
 body.dark {
-  background: #FFFFFF url("/SocialinksS&J/images/fundocss.png") no-repeat right top fixed;
-  /*--bg-color: #00082f;*/
+  --bg-color: #00082f;
   --text-color: #ffffff;
 }
 
@@ -74,8 +71,8 @@ ul li a {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #ffce07;
-  color: rgb(0, 0, 0);
+  background: #4263eb;
+  color: white;
   text-transform: uppercase;
   font-size: 14px;
 
@@ -86,9 +83,8 @@ ul li a {
 }
 
 /*pseudo-class*/
-
 ul li a:hover{
-  background: #ffe601;
+  background: #364fc7;
 }
 
 footer {
@@ -107,37 +103,18 @@ footer a{
   color: var(--text-color);
 }
 
-img.logozap{
+img.logoWhats{
   width: 7%;
-  border-radius: 30%;
 }
 
-img.pedroWhats{
+img.logoGit {
   width: 7%;
-  border-radius: 30%;
 }
 
-img.joaoWhats{
+img.logoLinkedin{
   width: 7%;
-  border-radius: 30%;
 }
 
-img.logoYouTube{
+img.logoInsta{
   width: 7%;
-  border-radius: 30%;
 }
-
-/*** Roda pé ***/
-
-img{
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.cat {
-  height: 100px;
-  width: 100px;
-  display: block;
-  margin: 0px auto;
- }
-
